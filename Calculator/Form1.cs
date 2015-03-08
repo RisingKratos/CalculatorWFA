@@ -18,11 +18,13 @@ namespace Calculator
         char operation;                         //type of operation
         double result = 0.0;                    //result, get from equal 
         
+        //Unknown function, represents Form, but don't  know, how to use
         public Form1()
         {
             InitializeComponent();
         }
 
+        //also unknown function, represents textbox changes
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             
