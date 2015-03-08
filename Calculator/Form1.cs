@@ -271,6 +271,21 @@ namespace Calculator
             operation = 'o';
             userInput = string.Empty;
         }
+
+        private void Edit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Help_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void JustFunctionToShow_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
