@@ -29,30 +29,32 @@
         private void InitializeComponent()
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
+            this.One = new System.Windows.Forms.Button();
+            this.Two = new System.Windows.Forms.Button();
+            this.Three = new System.Windows.Forms.Button();
+            this.Four = new System.Windows.Forms.Button();
+            this.Five = new System.Windows.Forms.Button();
+            this.Six = new System.Windows.Forms.Button();
+            this.Seven = new System.Windows.Forms.Button();
+            this.Eight = new System.Windows.Forms.Button();
+            this.Nine = new System.Windows.Forms.Button();
+            this.Zero = new System.Windows.Forms.Button();
+            this.Clear = new System.Windows.Forms.Button();
+            this.Dot = new System.Windows.Forms.Button();
+            this.Plus = new System.Windows.Forms.Button();
+            this.Minus = new System.Windows.Forms.Button();
+            this.Multiply = new System.Windows.Forms.Button();
+            this.Divide = new System.Windows.Forms.Button();
+            this.Equal = new System.Windows.Forms.Button();
+            this.Sin = new System.Windows.Forms.Button();
+            this.Cos = new System.Windows.Forms.Button();
+            this.Tan = new System.Windows.Forms.Button();
+            this.Power = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
+            this.Sqrt = new System.Windows.Forms.Button();
+            this.ToOtherSystem = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -64,297 +66,321 @@
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // button1
+            // One
             // 
-            this.button1.AllowDrop = true;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button1.Location = new System.Drawing.Point(12, 51);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(50, 50);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "1";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.one_Click);
+            this.One.AllowDrop = true;
+            this.One.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.One.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.One.Location = new System.Drawing.Point(12, 51);
+            this.One.Name = "One";
+            this.One.Size = new System.Drawing.Size(50, 50);
+            this.One.TabIndex = 1;
+            this.One.Text = "1";
+            this.One.UseVisualStyleBackColor = false;
+            this.One.Click += new System.EventHandler(this.one_Click);
             // 
-            // button2
+            // Two
             // 
-            this.button2.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button2.Location = new System.Drawing.Point(68, 51);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(50, 50);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "2";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.two_Click);
+            this.Two.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Two.Location = new System.Drawing.Point(68, 51);
+            this.Two.Name = "Two";
+            this.Two.Size = new System.Drawing.Size(50, 50);
+            this.Two.TabIndex = 2;
+            this.Two.Text = "2";
+            this.Two.UseVisualStyleBackColor = false;
+            this.Two.Click += new System.EventHandler(this.two_Click);
             // 
-            // button3
+            // Three
             // 
-            this.button3.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button3.Location = new System.Drawing.Point(124, 51);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(50, 50);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "3";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.three_Click);
+            this.Three.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Three.Location = new System.Drawing.Point(124, 51);
+            this.Three.Name = "Three";
+            this.Three.Size = new System.Drawing.Size(50, 50);
+            this.Three.TabIndex = 3;
+            this.Three.Text = "3";
+            this.Three.UseVisualStyleBackColor = false;
+            this.Three.Click += new System.EventHandler(this.three_Click);
             // 
-            // button4
+            // Four
             // 
-            this.button4.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button4.Location = new System.Drawing.Point(12, 107);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(50, 50);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "4";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.four_Click);
+            this.Four.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Four.Location = new System.Drawing.Point(12, 107);
+            this.Four.Name = "Four";
+            this.Four.Size = new System.Drawing.Size(50, 50);
+            this.Four.TabIndex = 4;
+            this.Four.Text = "4";
+            this.Four.UseVisualStyleBackColor = false;
+            this.Four.Click += new System.EventHandler(this.four_Click);
             // 
-            // button5
+            // Five
             // 
-            this.button5.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button5.Location = new System.Drawing.Point(68, 107);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(50, 50);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "5";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.five_Click);
+            this.Five.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Five.Location = new System.Drawing.Point(68, 107);
+            this.Five.Name = "Five";
+            this.Five.Size = new System.Drawing.Size(50, 50);
+            this.Five.TabIndex = 5;
+            this.Five.Text = "5";
+            this.Five.UseVisualStyleBackColor = false;
+            this.Five.Click += new System.EventHandler(this.five_Click);
             // 
-            // button6
+            // Six
             // 
-            this.button6.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button6.Location = new System.Drawing.Point(124, 107);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(50, 50);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "6";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.six_Click);
+            this.Six.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Six.Location = new System.Drawing.Point(124, 107);
+            this.Six.Name = "Six";
+            this.Six.Size = new System.Drawing.Size(50, 50);
+            this.Six.TabIndex = 6;
+            this.Six.Text = "6";
+            this.Six.UseVisualStyleBackColor = false;
+            this.Six.Click += new System.EventHandler(this.six_Click);
             // 
-            // button7
+            // Seven
             // 
-            this.button7.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button7.Location = new System.Drawing.Point(12, 163);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(50, 50);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "7";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.seven_Click);
+            this.Seven.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Seven.Location = new System.Drawing.Point(12, 163);
+            this.Seven.Name = "Seven";
+            this.Seven.Size = new System.Drawing.Size(50, 50);
+            this.Seven.TabIndex = 7;
+            this.Seven.Text = "7";
+            this.Seven.UseVisualStyleBackColor = false;
+            this.Seven.Click += new System.EventHandler(this.seven_Click);
             // 
-            // button8
+            // Eight
             // 
-            this.button8.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button8.Location = new System.Drawing.Point(68, 163);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(50, 50);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "8";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.eight_Click);
+            this.Eight.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Eight.Location = new System.Drawing.Point(68, 163);
+            this.Eight.Name = "Eight";
+            this.Eight.Size = new System.Drawing.Size(50, 50);
+            this.Eight.TabIndex = 8;
+            this.Eight.Text = "8";
+            this.Eight.UseVisualStyleBackColor = false;
+            this.Eight.Click += new System.EventHandler(this.eight_Click);
             // 
-            // button9
+            // Nine
             // 
-            this.button9.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button9.Location = new System.Drawing.Point(124, 163);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(50, 50);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "9";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.nine_Click);
+            this.Nine.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Nine.Location = new System.Drawing.Point(124, 163);
+            this.Nine.Name = "Nine";
+            this.Nine.Size = new System.Drawing.Size(50, 50);
+            this.Nine.TabIndex = 9;
+            this.Nine.Text = "9";
+            this.Nine.UseVisualStyleBackColor = false;
+            this.Nine.Click += new System.EventHandler(this.nine_Click);
             // 
-            // button10
+            // Zero
             // 
-            this.button10.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button10.Location = new System.Drawing.Point(12, 219);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(50, 50);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "0";
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.zero_Click);
+            this.Zero.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Zero.Location = new System.Drawing.Point(12, 219);
+            this.Zero.Name = "Zero";
+            this.Zero.Size = new System.Drawing.Size(50, 50);
+            this.Zero.TabIndex = 10;
+            this.Zero.Text = "0";
+            this.Zero.UseVisualStyleBackColor = false;
+            this.Zero.Click += new System.EventHandler(this.zero_Click);
             // 
-            // button11
+            // Clear
             // 
-            this.button11.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button11.Location = new System.Drawing.Point(124, 219);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(50, 50);
-            this.button11.TabIndex = 11;
-            this.button11.Text = "C";
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.clear_Click);
+            this.Clear.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Clear.Location = new System.Drawing.Point(124, 219);
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(50, 50);
+            this.Clear.TabIndex = 11;
+            this.Clear.Text = "C";
+            this.Clear.UseVisualStyleBackColor = false;
+            this.Clear.Click += new System.EventHandler(this.clear_Click);
             // 
-            // button12
+            // Dot
             // 
-            this.button12.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button12.Location = new System.Drawing.Point(68, 219);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(50, 50);
-            this.button12.TabIndex = 12;
-            this.button12.Text = ".";
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.dot_Click);
+            this.Dot.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Dot.Location = new System.Drawing.Point(68, 219);
+            this.Dot.Name = "Dot";
+            this.Dot.Size = new System.Drawing.Size(50, 50);
+            this.Dot.TabIndex = 12;
+            this.Dot.Text = ".";
+            this.Dot.UseVisualStyleBackColor = false;
+            this.Dot.Click += new System.EventHandler(this.dot_Click);
             // 
-            // button13
+            // Plus
             // 
-            this.button13.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button13.Location = new System.Drawing.Point(180, 51);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(50, 50);
-            this.button13.TabIndex = 13;
-            this.button13.Text = "+";
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.plus_Click);
+            this.Plus.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Plus.Location = new System.Drawing.Point(180, 51);
+            this.Plus.Name = "Plus";
+            this.Plus.Size = new System.Drawing.Size(50, 50);
+            this.Plus.TabIndex = 13;
+            this.Plus.Text = "+";
+            this.Plus.UseVisualStyleBackColor = false;
+            this.Plus.Click += new System.EventHandler(this.plus_Click);
             // 
-            // button14
+            // Minus
             // 
-            this.button14.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button14.Location = new System.Drawing.Point(180, 107);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(50, 50);
-            this.button14.TabIndex = 14;
-            this.button14.Text = "-";
-            this.button14.UseVisualStyleBackColor = false;
-            this.button14.Click += new System.EventHandler(this.minus_Click);
+            this.Minus.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Minus.Location = new System.Drawing.Point(180, 107);
+            this.Minus.Name = "Minus";
+            this.Minus.Size = new System.Drawing.Size(50, 50);
+            this.Minus.TabIndex = 14;
+            this.Minus.Text = "-";
+            this.Minus.UseVisualStyleBackColor = false;
+            this.Minus.Click += new System.EventHandler(this.minus_Click);
             // 
-            // button15
+            // Multiply
             // 
-            this.button15.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button15.Location = new System.Drawing.Point(180, 163);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(50, 50);
-            this.button15.TabIndex = 15;
-            this.button15.Text = "*";
-            this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += new System.EventHandler(this.multiply_Click);
+            this.Multiply.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Multiply.Location = new System.Drawing.Point(180, 163);
+            this.Multiply.Name = "Multiply";
+            this.Multiply.Size = new System.Drawing.Size(50, 50);
+            this.Multiply.TabIndex = 15;
+            this.Multiply.Text = "*";
+            this.Multiply.UseVisualStyleBackColor = false;
+            this.Multiply.Click += new System.EventHandler(this.multiply_Click);
             // 
-            // button16
+            // Divide
             // 
-            this.button16.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button16.Location = new System.Drawing.Point(180, 219);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(50, 50);
-            this.button16.TabIndex = 16;
-            this.button16.Text = "/";
-            this.button16.UseVisualStyleBackColor = false;
-            this.button16.Click += new System.EventHandler(this.divide_Click);
+            this.Divide.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Divide.Location = new System.Drawing.Point(180, 219);
+            this.Divide.Name = "Divide";
+            this.Divide.Size = new System.Drawing.Size(50, 50);
+            this.Divide.TabIndex = 16;
+            this.Divide.Text = "/";
+            this.Divide.UseVisualStyleBackColor = false;
+            this.Divide.Click += new System.EventHandler(this.divide_Click);
             // 
-            // button17
+            // Equal
             // 
-            this.button17.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button17.Location = new System.Drawing.Point(12, 331);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(218, 50);
-            this.button17.TabIndex = 17;
-            this.button17.Text = "=";
-            this.button17.UseVisualStyleBackColor = false;
-            this.button17.Click += new System.EventHandler(this.equal_Click);
+            this.Equal.BackColor = System.Drawing.Color.LemonChiffon;
+            this.Equal.Location = new System.Drawing.Point(180, 331);
+            this.Equal.Name = "Equal";
+            this.Equal.Size = new System.Drawing.Size(50, 50);
+            this.Equal.TabIndex = 17;
+            this.Equal.Text = "=";
+            this.Equal.UseVisualStyleBackColor = false;
+            this.Equal.Click += new System.EventHandler(this.equal_Click);
             // 
-            // button18
+            // Sin
             // 
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button18.Location = new System.Drawing.Point(12, 275);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(50, 50);
-            this.button18.TabIndex = 18;
-            this.button18.Text = "sin";
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.sin_Click);
+            this.Sin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Sin.Location = new System.Drawing.Point(12, 275);
+            this.Sin.Name = "Sin";
+            this.Sin.Size = new System.Drawing.Size(50, 50);
+            this.Sin.TabIndex = 18;
+            this.Sin.Text = "sin";
+            this.Sin.UseVisualStyleBackColor = false;
+            this.Sin.Click += new System.EventHandler(this.sin_Click);
             // 
-            // button19
+            // Cos
             // 
-            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button19.Location = new System.Drawing.Point(68, 275);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(50, 50);
-            this.button19.TabIndex = 19;
-            this.button19.Text = "cos";
-            this.button19.UseVisualStyleBackColor = false;
-            this.button19.Click += new System.EventHandler(this.cos_Click);
+            this.Cos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Cos.Location = new System.Drawing.Point(68, 275);
+            this.Cos.Name = "Cos";
+            this.Cos.Size = new System.Drawing.Size(50, 50);
+            this.Cos.TabIndex = 19;
+            this.Cos.Text = "cos";
+            this.Cos.UseVisualStyleBackColor = false;
+            this.Cos.Click += new System.EventHandler(this.cos_Click);
             // 
-            // button20
+            // Tan
             // 
-            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button20.Location = new System.Drawing.Point(124, 275);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(50, 50);
-            this.button20.TabIndex = 20;
-            this.button20.Text = "tan";
-            this.button20.UseVisualStyleBackColor = false;
-            this.button20.Click += new System.EventHandler(this.tan_Click);
+            this.Tan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Tan.Location = new System.Drawing.Point(124, 275);
+            this.Tan.Name = "Tan";
+            this.Tan.Size = new System.Drawing.Size(50, 50);
+            this.Tan.TabIndex = 20;
+            this.Tan.Text = "tan";
+            this.Tan.UseVisualStyleBackColor = false;
+            this.Tan.Click += new System.EventHandler(this.tan_Click);
             // 
-            // button21
+            // Power
             // 
-            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button21.Location = new System.Drawing.Point(180, 275);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(50, 50);
-            this.button21.TabIndex = 21;
-            this.button21.Text = "x^y";
-            this.button21.UseVisualStyleBackColor = false;
-            this.button21.Click += new System.EventHandler(this.power_Click);
+            this.Power.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Power.Location = new System.Drawing.Point(180, 275);
+            this.Power.Name = "Power";
+            this.Power.Size = new System.Drawing.Size(50, 50);
+            this.Power.TabIndex = 21;
+            this.Power.Text = "x^y";
+            this.Power.UseVisualStyleBackColor = false;
+            this.Power.Click += new System.EventHandler(this.power_Click);
             // 
             // button22
             // 
             this.button22.Enabled = false;
-            this.button22.Location = new System.Drawing.Point(2, -4);
+            this.button22.Location = new System.Drawing.Point(-8, -4);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 23);
+            this.button22.Size = new System.Drawing.Size(85, 23);
             this.button22.TabIndex = 22;
             this.button22.Text = "Edit";
             this.button22.UseVisualStyleBackColor = true;
             // 
             // button23
             // 
-            this.button23.Location = new System.Drawing.Point(68, -4);
+            this.button23.Location = new System.Drawing.Point(59, -4);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(75, 23);
+            this.button23.Size = new System.Drawing.Size(95, 23);
             this.button23.TabIndex = 23;
-            this.button23.Text = "button23";
+            this.button23.Text = "Help";
             this.button23.UseVisualStyleBackColor = true;
             // 
             // button24
             // 
-            this.button24.Location = new System.Drawing.Point(139, -4);
+            this.button24.Location = new System.Drawing.Point(149, -4);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(75, 23);
+            this.button24.Size = new System.Drawing.Size(92, 23);
             this.button24.TabIndex = 24;
-            this.button24.Text = "button24";
+            this.button24.Text = "JustFunction";
             this.button24.UseVisualStyleBackColor = true;
+            // 
+            // Sqrt
+            // 
+            this.Sqrt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Sqrt.Location = new System.Drawing.Point(12, 331);
+            this.Sqrt.Name = "Sqrt";
+            this.Sqrt.Size = new System.Drawing.Size(50, 50);
+            this.Sqrt.TabIndex = 25;
+            this.Sqrt.Text = "Sqrt";
+            this.Sqrt.UseVisualStyleBackColor = false;
+            this.Sqrt.Click += new System.EventHandler(this.sqrt_Click);
+            // 
+            // ToOtherSystem
+            // 
+            this.ToOtherSystem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ToOtherSystem.Location = new System.Drawing.Point(68, 331);
+            this.ToOtherSystem.Name = "ToOtherSystem";
+            this.ToOtherSystem.Size = new System.Drawing.Size(106, 50);
+            this.ToOtherSystem.TabIndex = 26;
+            this.ToOtherSystem.Text = "ToOtherSystem";
+            this.ToOtherSystem.UseVisualStyleBackColor = false;
+            this.ToOtherSystem.Click += new System.EventHandler(this.ToOtherSystem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
-            this.ClientSize = new System.Drawing.Size(242, 386);
+            this.ClientSize = new System.Drawing.Size(245, 388);
+            this.Controls.Add(this.ToOtherSystem);
+            this.Controls.Add(this.Sqrt);
             this.Controls.Add(this.button24);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.button22);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Power);
+            this.Controls.Add(this.Tan);
+            this.Controls.Add(this.Cos);
+            this.Controls.Add(this.Sin);
+            this.Controls.Add(this.Equal);
+            this.Controls.Add(this.Divide);
+            this.Controls.Add(this.Multiply);
+            this.Controls.Add(this.Minus);
+            this.Controls.Add(this.Plus);
+            this.Controls.Add(this.Dot);
+            this.Controls.Add(this.Clear);
+            this.Controls.Add(this.Zero);
+            this.Controls.Add(this.Nine);
+            this.Controls.Add(this.Eight);
+            this.Controls.Add(this.Seven);
+            this.Controls.Add(this.Six);
+            this.Controls.Add(this.Five);
+            this.Controls.Add(this.Four);
+            this.Controls.Add(this.Three);
+            this.Controls.Add(this.Two);
+            this.Controls.Add(this.One);
             this.Controls.Add(this.textBox1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "Form1";
@@ -367,30 +393,32 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button One;
+        private System.Windows.Forms.Button Two;
+        private System.Windows.Forms.Button Three;
+        private System.Windows.Forms.Button Four;
+        private System.Windows.Forms.Button Five;
+        private System.Windows.Forms.Button Six;
+        private System.Windows.Forms.Button Seven;
+        private System.Windows.Forms.Button Eight;
+        private System.Windows.Forms.Button Nine;
+        private System.Windows.Forms.Button Zero;
+        private System.Windows.Forms.Button Clear;
+        private System.Windows.Forms.Button Dot;
+        private System.Windows.Forms.Button Plus;
+        private System.Windows.Forms.Button Minus;
+        private System.Windows.Forms.Button Multiply;
+        private System.Windows.Forms.Button Divide;
+        private System.Windows.Forms.Button Equal;
+        private System.Windows.Forms.Button Sin;
+        private System.Windows.Forms.Button Cos;
+        private System.Windows.Forms.Button Tan;
+        private System.Windows.Forms.Button Power;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button Sqrt;
+        private System.Windows.Forms.Button ToOtherSystem;
     }
 }
 

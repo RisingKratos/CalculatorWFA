@@ -146,7 +146,7 @@ namespace Calculator
         {
             userInput += ".";
         }
-          
+
         private void equal_Click(object sender, EventArgs e)
         {
             
@@ -207,6 +207,27 @@ namespace Calculator
                 }
                 textBox1.Text = result.ToString();
             }
+            else if (operation == 'q') 
+            {
+                result = Math.Sqrt(firstNum);
+                textBox1.Text = result.ToString();
+            }
+            else if (operation == 'o')
+            {
+                secondOperand = userInput;
+                double.TryParse(secondOperand, out secondNum);
+                int secondConvertedNum = Convert.ToInt32(secondNum);                
+                if (firstNum == 0)
+                {
+                    Console.WriteLine('0');
+                }
+                else
+                {
+                    int firstConvertedNum = Convert.ToInt32(firstNum);
+                    string Changed = Convert.ToString(firstConvertedNum, secondConvertedNum);
+                    textBox1.Text = Changed;
+                }            
+            }
         }
 
         private void sin_Click(object sender, EventArgs e)
@@ -236,5 +257,20 @@ namespace Calculator
             operation = 'p';
             userInput = string.Empty; 
         }
+
+        private void sqrt_Click(object sender, EventArgs e)
+        {
+            firstOperand = userInput;
+            operation = 'q';
+            userInput = string.Empty;
+        }
+
+        private void ToOtherSystem_Click(object sender, EventArgs e)
+        {
+            firstOperand = userInput;
+            operation = 'o';
+            userInput = string.Empty;
+        }
     }
 }
+
